@@ -1,3 +1,7 @@
+# TODO:
+#  Charles
+#  Parallels
+
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -168,12 +172,45 @@ brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
 brew "tomanthony/brews/itermocil"
+
+brew "syncthing"
+
 # Automated testing of webapps for Google Chrome
 cask "chromedriver"
-# File system integration
-cask "osxfuse"
 # Development environment
 cask "vagrant"
+# Zoom
+cask "zoom"
+
+cask "1password"
+cask "alfred"
+cask "bettertouchtool"
+cask "google-chrome"
+cask "firefox"
+cask "opera"
+cask "cleanmymac"
+cask "ilya-birman-typography-layout"
+cask "karabiner-elements"
+cask "loom"
+cask "skype"
+cask "transmission"
+cask "audacity"
+cask "vlc"
+cask "arq"
+cask "spectacle"
+
+cask "docker"
+cask "dashlane"
+cask "lastpass"
+cask "daisydisk"
+
+cask "jetbrains-toolbox"
+cask "fork"
+cask "forklift"
+cask "sequel-pro"
+cask "iterm2"
+cask "paw"
+
 mas "Be Focused Pro", id: 961632517
 mas "Craft", id: 1487937127
 mas "GarageBand", id: 682658836
@@ -186,3 +223,6 @@ mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
 mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835
+
+mas "Microsoft Word", id: 462054704
+mas "Microsoft Excel", id: 462058435
