@@ -138,6 +138,9 @@ brew "pwgen"
 brew "pyenv"
 # Cross-platform application and UI framework
 brew "qt"
+# Persistent key-value database, with built-in net interface
+# TODO: Get rid of redis
+brew "redis", restart_service: true
 # Readline wrapper: adds readline support to tools that lack it
 brew "rlwrap"
 # Easily detect and prevent bugs and anti-patterns in your codebase
@@ -173,13 +176,10 @@ cask "osxfuse"
 cask "vagrant"
 mas "Be Focused Pro", id: 961632517
 mas "Craft", id: 1487937127
-mas "Disk Speed Test", id: 425264550
-mas "Emcee for Music", id: 408774844
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Monosnap", id: 540348655
 mas "Skitch", id: 425955336
-mas "Slack", id: 803453959
 mas "Snap", id: 418073146
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
