@@ -2,8 +2,11 @@
 
 set -ex
 
+export LDFLAGS="-L/usr/local/opt/zlib/lib"
+export CPPFLAGS="-I/usr/local/opt/zlib/include"
+
 # python versions
-# cat pyenvs | xargs -n 1 pyenv install -s
+cat pyenvs | xargs -n 1 pyenv install -s
 eval "$(pyenv init -)"
 
 # install poetry and ptipython for each pyenv
