@@ -120,6 +120,9 @@ cask "paw"
 cask "virtualbox"
 cask "parallels"
 
+cask "little-snitch"
+cask "micro-snitch"
+
 mas "Be Focused Pro", id: 961632517
 mas "Craft", id: 1487937127
 mas "GarageBand", id: 682658836
