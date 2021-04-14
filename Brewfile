@@ -17,6 +17,8 @@ brew "coreutils", link: false
 brew "ctop"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Fish shell
+brew "fish"
 # Monitor a directory for changes and run a shell command
 brew "fswatch"
 # GNU compiler collection
