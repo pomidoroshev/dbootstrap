@@ -1,0 +1,11 @@
+wheel
+poetry
+ptipython
+requests
+mypy
+black
+click
+isort
+psycopg2-binary
+tqdm
+ujson
