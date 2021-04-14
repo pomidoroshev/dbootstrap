@@ -15,8 +15,6 @@ brew "gettext"
 brew "coreutils", link: false
 # Top-like interface for container metrics
 brew "ctop"
-# Fish shell
- brew "fish"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Fish shell
