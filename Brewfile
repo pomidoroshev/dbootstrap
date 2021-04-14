@@ -108,8 +108,6 @@ cask "dashlane"
 cask "lastpass"
 cask "daisydisk"
 
-cask "fork"
-cask "forklift"
 cask "sequel-pro"
 cask "iterm2"
 cask "paw"
