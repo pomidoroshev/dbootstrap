@@ -5,6 +5,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "hudochenkov/sshpass"
@@ -79,8 +80,13 @@ brew "wget"
 brew "yarn"
 # iTermocil
 brew "tomanthony/brews/itermocil"
+
+brew "zlib"
+brew "bzip2"
+
 # Syncthing
-brew "syncthing"
+cask "syncthing"
+
 # Automated testing of webapps for Google Chrome
 cask "chromedriver"
 # Development environment
@@ -119,6 +125,8 @@ cask "parallels"
 
 cask "little-snitch"
 cask "micro-snitch"
+
+cask "font-fira-code"
 
 mas "Be Focused Pro", id: 961632517
 mas "Craft", id: 1487937127
