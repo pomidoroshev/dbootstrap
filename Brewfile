@@ -85,10 +85,7 @@ brew "syncthing"
 cask "chromedriver"
 # Development environment
 cask "vagrant"
-# Zoom
-cask "zoom"
 
-cask "1password"
 cask "alfred"
 cask "bettertouchtool"
 cask "google-chrome"
@@ -97,7 +94,6 @@ cask "opera"
 cask "cleanmymac"
 cask "ilya-birman-typography-layout"
 cask "karabiner-elements"
-cask "loom"
 cask "skype"
 cask "transmission"
 cask "audacity"
@@ -105,18 +101,21 @@ cask "vlc"
 cask "arq"
 cask "spectacle"
 
-cask "docker"
+cask "visual-studio-code"
+
+cask "1password"
 cask "dashlane"
 cask "lastpass"
 cask "daisydisk"
 
-cask "jetbrains-toolbox"
 cask "fork"
 cask "forklift"
 cask "sequel-pro"
 cask "iterm2"
 cask "paw"
+cask "dash"
 
+cask "docker"
 cask "virtualbox"
 cask "parallels"
 
@@ -126,7 +125,6 @@ cask "micro-snitch"
 mas "Be Focused Pro", id: 961632517
 mas "Craft", id: 1487937127
 mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
 mas "Monosnap", id: 540348655
 mas "Skitch", id: 425955336
 mas "Snap", id: 418073146
