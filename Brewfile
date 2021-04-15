@@ -5,6 +5,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "hudochenkov/sshpass"
@@ -15,6 +16,8 @@ brew "gettext"
 brew "coreutils", link: false
 # Top-like interface for container metrics
 brew "ctop"
+# Fish shell
+brew "fish"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Fish shell
@@ -81,25 +84,25 @@ brew "wget"
 brew "yarn"
 # iTermocil
 brew "tomanthony/brews/itermocil"
+
+brew "zlib"
+brew "bzip2"
+
 # Syncthing
-brew "syncthing"
+cask "syncthing"
+
 # Automated testing of webapps for Google Chrome
 cask "chromedriver"
 # Development environment
 cask "vagrant"
-# Zoom
-cask "zoom"
 
-cask "1password"
 cask "alfred"
 cask "bettertouchtool"
 cask "google-chrome"
 cask "firefox"
 cask "opera"
 cask "cleanmymac"
-cask "ilya-birman-typography-layout"
 cask "karabiner-elements"
-cask "loom"
 cask "skype"
 cask "transmission"
 cask "audacity"
@@ -107,31 +110,33 @@ cask "vlc"
 cask "arq"
 cask "spectacle"
 
-cask "docker"
+cask "visual-studio-code"
+
+cask "1password"
 cask "dashlane"
 cask "lastpass"
 cask "daisydisk"
 
-cask "jetbrains-toolbox"
-cask "fork"
-cask "forklift"
 cask "sequel-pro"
 cask "iterm2"
 cask "paw"
+cask "dash"
 
+cask "docker"
 cask "virtualbox"
 cask "parallels"
 
 cask "little-snitch"
 cask "micro-snitch"
 
+cask "font-fira-code"
+cask "font-jetbrains-mono"
+
 mas "Be Focused Pro", id: 961632517
 mas "Craft", id: 1487937127
 mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
 mas "Monosnap", id: 540348655
 mas "Skitch", id: 425955336
-mas "Snap", id: 418073146
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
