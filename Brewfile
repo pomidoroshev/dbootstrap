@@ -126,6 +126,10 @@ cask "docker"
 cask "virtualbox"
 cask "parallels"
 
+cask "jetbrains-toolbox"
+cask "fork"
+cask "forklift"
+
 cask "little-snitch"
 cask "micro-snitch"
 
